@@ -1,6 +1,6 @@
 # npmtest-mongoose-timestamp
 
-#### test coverage for  [mongoose-timestamp (v0.6.0)](https://github.com/drudge/mongoose-timestamp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongoose-timestamp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongoose-timestamp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongoose-timestamp.svg)](https://travis-ci.org/npmtest/node-npmtest-mongoose-timestamp)
+#### basic test coverage for  [mongoose-timestamp (v0.6.0)](https://github.com/drudge/mongoose-timestamp#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongoose-timestamp.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongoose-timestamp) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongoose-timestamp.svg)](https://travis-ci.org/npmtest/node-npmtest-mongoose-timestamp)
 
 #### Mongoose plugin that adds createdAt and updatedAt auto-assigned date properties
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongoose-timestamp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongoose-timestamp/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mongoose-timestamp/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongoose-timestamp/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongoose-timestamp/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mongoose-timestamp/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
     "scripts": {
         "test": "mocha -u bdd -R spec -c ./test/*test.js"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
